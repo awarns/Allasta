@@ -1,4 +1,4 @@
-default: FIG_NEWTON_FILE=default.yml --no-source --color --format pretty --tags ~@uat_smoke
+default: FIG_NEWTON_FILE=default.yml --no-source --color --format PrettyFace::Formatter::Html --out results/allasta_defaul_run_results.html --tags @working
 uat_smoke: FIG_NEWTON_FILE=default.yml --no-source --color --format PrettyFace::Formatter::Html --out results/index.html --tags @uat_smoke
 prod_smoke: FIG_NEWTON_FILE=default.yml --no-source --color --format PrettyFace::Formatter::Html --out results/index.html --tags @prod_smoke
 

@@ -2,7 +2,7 @@ require 'rubygems'
 require 'cucumber'
 require 'cucumber/rake/task'
 
-Cucumber::Rake::Task.new(:pps_regression, "Run PPS Regression Suite") do |t|
+Cucumber::Rake::Task.new(:allasta_regression, "Run Allasta Regression Suite") do |t|
   t.profile = 'default'
 end
 
