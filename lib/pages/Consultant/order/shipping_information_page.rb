@@ -8,7 +8,7 @@ class ShippingInformationPage
   text_field(:zip_code, :id => "MasterContentBody1_shipping_info_txtPostalCode")
   text_field(:email, :id => "MasterContentBody1_email")
   link(:save_and_continue, :id => "MasterContentBody1_btn_save")
-  div(:page_text, :id => "vo-template")
+  div(:page_text, :class => "template")
 
   def enter_retail_shipping_info(data ={})
 

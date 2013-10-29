@@ -1,5 +1,5 @@
 login_page:
-  consultantID: '102091'
+  consultantID: '211067'
   password: 'testing31'
 
 profile_page:
@@ -94,7 +94,6 @@ party_event:
   address_line_1: '205 N. Nelson Rd.'
   zip_code: '43219'
   email: 'awarns@thirtyonegifts.com'
-  password: 'testing31'
   first_name: 'Andy'
   last_name: 'Warns'
   phone: '(419) 202-3773'
@@ -110,7 +109,7 @@ non_party_event:
 event_invitations:
   invitation_subject: 'Come and Party'
   invitation_message: 'Hey Whats Good in the Hood?'
-  template: 'true'
+  template: 'Summer 2012 Invitation 1'
 
 add_guest:
   email_address: 'awarns@thirtyonegifts.com'

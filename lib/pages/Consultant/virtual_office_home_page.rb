@@ -7,7 +7,7 @@ class VirtualOfficeHomePage
   link(:downline, :text => "Downline")
   link(:commissions, :text => "Commissions")
   link(:order_link, :text => "Order")
-  link(:order_hist, :text => "Order Hist.")
+  link(:order_hist, :text => /.*Hist.*/)
   link(:acct_bal, :text => "Acct Bal.")
   link(:my_events, :text => "My Events")
   link(:email, :text => "Email")
@@ -34,6 +34,7 @@ class VirtualOfficeHomePage
 
   def click_order_history
 
+    sleep(2)
     order_hist
 
   end

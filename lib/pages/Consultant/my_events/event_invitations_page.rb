@@ -4,7 +4,7 @@ class EventInvitationsPage
 
   text_field(:invitation_subject, :id => "MasterContentBody1_content_rep_txt_subject")
   text_area(:invitation_message, :id => "MasterContentBody1_content_rep_txt_message")
-  radio_button(:template, :id => "MasterContentBody1_content_rep_TemplateList_btnSelectTemplate_1")
+  select_list(:template, :id => "MasterContentBody1_content_rep_radio_type_list")
   button(:preview_invite_button, :value => "Preview Invite")
   link(:save_and_continue_to_guest_list, :id => "MasterContentBody1_content_rep_btn_update")
   link(:guest_list, :text => "Guest List")

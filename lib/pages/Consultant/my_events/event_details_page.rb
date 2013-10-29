@@ -14,7 +14,7 @@ class EventDetailsPage
   text_field(:phone, :id => "ctl00_MasterContentBody1_ship_phone")
   link(:copy_link, :id => "copyLink")
   link(:save_and_continue, :id => "MasterContentBody1_btn_update")
-  div(:page_text, :class => "full content")
+  div(:page_text, :class => "template")
 
   def enter_event_details_party_event(data ={})
     populate_page_with data_for(:party_event, data)

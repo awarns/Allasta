@@ -1,3 +1,5 @@
+@not_working
+
 Feature: Retail Order as a Consultant
 
   As a consultant
@@ -15,7 +17,7 @@ Feature: Retail Order as a Consultant
 
   Scenario: Add product to cart
     When I continue my order
-    And I Add product "3000" to my cart
+    And I Add product "7002" to my cart
     And I personalize using Embroidery
     And I Add product "3244" to my cart
     And I personalize using Icon-It No Text

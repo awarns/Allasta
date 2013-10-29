@@ -22,7 +22,7 @@ class EventGuestListPage
   link(:invitations, :text => "Invitations")
   link(:guest_list, :text => "Guest List")
   link(:update_link, :text => "Update")
-  link(:view_invite_link, :id => "MasterContentBody1_content_rep_data_invitee_list_lnkPreview_0")
+  link(:view_invite_link, :text => "View")
   checkbox(:can_attend, :id => "MasterContentBody1_chk_can_attend")
   table(:guest_list_table, :id => "MasterContentBody1_content_rep_data_rsvps")
   in_frame(:id => "sm-frame") do |frame|

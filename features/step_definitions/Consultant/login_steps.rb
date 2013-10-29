@@ -21,7 +21,7 @@ Given(/^I am on Her Virtual Office$/) do
 
   end
 
-  on(LoginPage).nav_to_virtual_office
+
   on(LoginPage).login
 
 end

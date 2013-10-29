@@ -36,6 +36,7 @@ class MyWebsiteInfoPage
   def personalize_website(data = {})
 
     personalize
+    sleep(3)
     populate_page_with data_for(:personalize_website, data)
     save_changes
 
