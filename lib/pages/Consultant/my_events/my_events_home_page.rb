@@ -9,7 +9,7 @@ class MyEventsHomePage
   link(:mange_follow_up_list, :text => "Manage My Follow-Up List")
   link(:edit_event, :text => "Edit")
   link(:cancel_event, :text => "Cancel")
-  div(:table_events, :class => "full content")
+  div(:table_events, :class => "sectionWrap content")
 
 
 
@@ -38,6 +38,8 @@ class MyEventsHomePage
   end
 
   def cancel_existing_events
+
+    sleep(3)
 
     while table_events =~ /.*Cancel.*/
 

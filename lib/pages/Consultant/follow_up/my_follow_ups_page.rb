@@ -27,6 +27,7 @@ class MyFollowUpsPage
 
   def edit_follow_up
 
+     sleep(3)
      edit_follow_up_link
 
   end
